@@ -4,7 +4,6 @@ const mongoose = require('mongoose')
 const ejsMate = require('ejs-mate')
 const methodOverride = require('method-override')
 const Campground = require('./models/campground')
-// THIS IS JUST A DUMMY CHANGE
 
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp')
