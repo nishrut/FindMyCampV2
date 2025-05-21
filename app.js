@@ -3,7 +3,6 @@ const path = require('path')
 const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 const Campground = require('./models/campground')
-// hello
 
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp')
